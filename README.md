@@ -37,7 +37,7 @@ Node and NPM can be installed without root permissions, and multiple versions ma
 5. Install all client-side dependencies by running `bower-installer`.
 6. Serve the project at [http://localhost:8080](http://localhost:8080) running `./vendor/bin/serve`, et voila!
 
-## Web log
+## Web log(s)
 
 ### 12:00 - 13:00: Ideas generation
 
