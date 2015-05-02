@@ -1,0 +1,14 @@
+{
+  "name": "CinemaTimeMachine",
+
+  "dependencies": {
+    "normalize-scss": "latest"
+  },
+
+  "install": {
+    "path": {
+      "/\\.(eot|ttf|woff2?|font\\.s?css)$/": "src/Asset/vendor/{name}/Font",
+      "/\\.s?css$/": "src/Style/vendor/{name}"
+    }
+  }
+}
