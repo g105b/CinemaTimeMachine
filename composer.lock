@@ -2053,12 +2053,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/CssSelector.git",
-                "reference": "5146de9616c62ab65333df84bdb8d201524776bb"
+                "reference": "7deb1f67f7776866f85df1124360acb5b3134122"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/CssSelector/zipball/5146de9616c62ab65333df84bdb8d201524776bb",
-                "reference": "5146de9616c62ab65333df84bdb8d201524776bb",
+                "url": "https://api.github.com/repos/symfony/CssSelector/zipball/7deb1f67f7776866f85df1124360acb5b3134122",
+                "reference": "7deb1f67f7776866f85df1124360acb5b3134122",
                 "shasum": ""
             },
             "require": {
@@ -2084,21 +2084,21 @@
             ],
             "authors": [
                 {
-                    "name": "Symfony Community",
-                    "homepage": "http://symfony.com/contributors"
-                },
-                {
                     "name": "Jean-François Simon",
                     "email": "jeanfrancois.simon@sensiolabs.com"
                 },
                 {
                     "name": "Fabien Potencier",
                     "email": "fabien@symfony.com"
+                },
+                {
+                    "name": "Symfony Community",
+                    "homepage": "https://symfony.com/contributors"
                 }
             ],
             "description": "Symfony CssSelector Component",
-            "homepage": "http://symfony.com",
-            "time": "2015-04-16 07:01:03"
+            "homepage": "https://symfony.com",
+            "time": "2015-05-01 14:06:45"
         },
         {
             "name": "symfony/dependency-injection",
@@ -2327,12 +2327,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/Finder.git",
-                "reference": "3e3c5ebf68e0252125a4d87f43a395e07397b5b6"
+                "reference": "7e8087452b82c5dc92cc119d841655fbf3f8f1e2"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/Finder/zipball/3e3c5ebf68e0252125a4d87f43a395e07397b5b6",
-                "reference": "3e3c5ebf68e0252125a4d87f43a395e07397b5b6",
+                "url": "https://api.github.com/repos/symfony/Finder/zipball/7e8087452b82c5dc92cc119d841655fbf3f8f1e2",
+                "reference": "7e8087452b82c5dc92cc119d841655fbf3f8f1e2",
                 "shasum": ""
             },
             "require": {
@@ -2358,17 +2358,17 @@
             ],
             "authors": [
                 {
-                    "name": "Symfony Community",
-                    "homepage": "http://symfony.com/contributors"
-                },
-                {
                     "name": "Fabien Potencier",
                     "email": "fabien@symfony.com"
+                },
+                {
+                    "name": "Symfony Community",
+                    "homepage": "https://symfony.com/contributors"
                 }
             ],
             "description": "Symfony Finder Component",
-            "homepage": "http://symfony.com",
-            "time": "2015-04-15 14:34:28"
+            "homepage": "https://symfony.com",
+            "time": "2015-05-01 14:06:45"
         },
         {
             "name": "symfony/process",
