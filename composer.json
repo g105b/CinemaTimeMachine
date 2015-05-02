@@ -1,0 +1,8 @@
+{
+  "minimum-stability": "dev",
+
+  "require": {
+    "brightflair/php.gt": "dev-master",
+    "esendex/sdk": "v1.0.6"
+  }
+}
