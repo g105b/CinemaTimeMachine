@@ -6,8 +6,8 @@ This is The Superteam's entry to [Hack24 2015](h24-web). We're making an interac
 
 ## Who made it?
 
-+ ![Pete Clark](https://pbs.twimg.com/profile_images/581455432830550016/7AKXlqoE.jpg)
-+ ![Helen Clark](https://pbs.twimg.com/profile_images/594251815409033217/l3weUs9d.jpg)
-+ ![Greg Bowler](https://avatars3.githubusercontent.com/u/358014?v=3)
+<img src="https://pbs.twimg.com/profile_images/581455432830550016/7AKXlqoE.jpg" width=128 />
+<img src="https://pbs.twimg.com/profile_images/594251815409033217/l3weUs9d.jpg" width=128 />
+<img src="https://pbs.twimg.com/profile_images/542405561887649792/phT0XVks.jpeg" width=128 />
 
 [h24-web]: http://www.hack24.co.uk/
