@@ -16,6 +16,27 @@ The brief was to celebrate Broadway's 25 years of cinema, and produce something 
 
 [h24-web]: http://www.hack24.co.uk/
 
+## Installing for local development
+
+### System requirements
+
++ PHP, version 5.5 or higher.
++ Node, version 0.10 or higher.
++ Node Package Manager (NPM)
++ NPM package Bower, version 1.4.1 or higher.
++ NPM package bower-installer, version 1.2.0 or higher.
+
+Node and NPM can be installed without root permissions, and multiple versions managed using [Node Version Manager (NVM)][nvm-website].
+
+### Installation process
+
+1. Download project source code either using git (`git clone http://github.com:BrightFlair/www.brightflair.com`), Github for Mac/Windows, or as a zip/tarball download (http://github.com/BrightFlair/www.brightflair.com/tarball/master or http://github.com/BrightFlair/www.brightflair.com/zipfile/master).
+2. Navigate to the project's directory (the git repository, or the extracted archive directory) and [Get Composer][get-composer] using `php -r "readfile('https://getcomposer.org/installer');" | php`.
+3. Install all server-side dependencies using `./composer.phar install`.
+4. Install `bower` and `bower-installer` Node packages (`npm install -g bower bower-installer`).
+5. Install all client-side dependencies by running `bower-installer`.
+6. Serve the project at [http://localhost:8080](http://localhost:8080) running `./vendor/bin/serve`, et voila!
+
 ## Web log
 
 ### 12:00 - 13:00: Ideas generation
