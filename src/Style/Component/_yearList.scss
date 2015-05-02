@@ -17,9 +17,13 @@
 		align-items: center;
 		width: 20%;
 		height: 20%;
+		font-size: 1rem;
 
 		>time {
 			display: block;
+			font-family: "BebasNeue", fantasy;
+			font-weight: normal;
+			font-size: 6em;
 		}
 	}
 }
