@@ -16,6 +16,8 @@
 		position: relative;
 		z-index: 1;
 		display: flex;
+		box-sizing: border-box;
+		border: 12px solid $col_bg;
 		justify-content: center;
 		align-items: center;
 		width: 20%;

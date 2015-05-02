@@ -4,13 +4,13 @@ var
 	yearBlockList = document.querySelectorAll("#yearList>li"),
 	imageList = document.querySelectorAll("img"),
 	globalIndex = 0,
-	speed = 750,
+	speed = 500,
 $$;
 
 (function __construct() {
 	showImage();
 	showYear();
-	//[].forEach.call(imageList, randomiseImage);
+	[].forEach.call(imageList, randomiseImage);
 })();
 
 /**
@@ -18,7 +18,7 @@ $$;
  */
 function randomiseImage(img) {
 	var
-		offset = 50,
+		offset = 250,
 		rotationOffset = 8,
 	$$;
 
