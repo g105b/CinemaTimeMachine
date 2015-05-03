@@ -8,4 +8,12 @@ body {
 	background: $col_bg;
 	color: $col_fg;
 	overflow: hidden;
+
+	>main {
+		position: fixed;
+		top: 0;
+		bottom: $size_footer;
+		left: 0;
+		right: 0;
+	}
 }

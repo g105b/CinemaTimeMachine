@@ -53,6 +53,7 @@ function loadDocument(uri, callback) {
 			newDocument.querySelector("body>main"), true),
 	$$;
 
+	newMain.classList.add("overlay");
 	document.body.appendChild(newMain);
 
 	if(callback) {
