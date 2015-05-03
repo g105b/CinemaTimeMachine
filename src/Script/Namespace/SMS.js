@@ -2,7 +2,7 @@ ns("CTM.SMS", (function() {
 
 var
 	inervalSeconds = 5,
-	responseShowSeconds = 6,
+	responseShowSeconds = 20,
 $$;
 
 function checkLoop() {

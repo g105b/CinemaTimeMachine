@@ -20,6 +20,7 @@ function schedule() {
 }
 
 function unschedule() {
+    CTM.debug && console.log("Timeout should be unscheduled!");
 	clearTimeout(timeout);
 }
 
