@@ -1,3 +1,47 @@
-main.overlay {
+
+
+main, main.overlay {
 	z-index: 10;
+	padding: 0 5%;
+	height: 90%;
+	display: flex;
+	flex-wrap: wrap;
+}
+
+#fact, #cta {
+	flex-grow: 1;
+	margin: auto;
+	background: rgba(#0088ac,0.8);
+	color: white;
+	font-size: 2.5em;
+	text-align: center;
+	padding: 1em;
+	border-radius: 0em;
+	p {
+		padding: 0;
+		margin: 0 0 .5em 0;
+	}
+	i {
+		font-size: 200%;
+		margin-top: .25em;
+		display: block;
+		font-weight: bold;
+	}
+	b {
+		display: block;
+		margin-top: .25em;
+		font-size: 130%;
+	}
+	p:last-of-type {
+		margin-bottom: 0;
+	}
+	.question, .instruction {
+		font-size: 100%;
+	}
+}
+
+#cta {
+	font-size: 3em;
+	background: rgba(#94c8dd, 0.9);
+	color: black;
 }
