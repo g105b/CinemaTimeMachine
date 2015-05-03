@@ -1,12 +1,12 @@
 <?php
-namespace CTM;
+namespace CTM\Esendex;
 use Esendex\Authentication\LoginAuthentication;
 use Esendex\InboxService;
 
 /**
  * 
  */
-class Esendex {
+class Inbox {
 
 const ACCOUNT_CODE = "EX0159513";
 const ACCOUNT_USER = "cinematimemachine@g105b.com";
@@ -23,10 +23,16 @@ public function __construct() {
 	$this->service = new InboxService($this->authentication);
 }
 
-//		$messageList = $this->service->latest();
-//
-//		foreach($messageList as $message) {
-//			$messageContent = $message->summary();
-//		}
+public function getList() {
+	$messageArray = [];
+	$messageList = $this->service->latest();
+
+	foreach($messageList as $i => $message) {
+		$timestamp = $message->receivedAt()->getTimestamp();
+		$messageArray[$timestamp] = $message->summary();
+	}
+
+	return $messageArray;
+}
 
 }#

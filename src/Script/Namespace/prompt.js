@@ -27,9 +27,16 @@ function updatePageCallback() {
 	setTimeout(removePrompt, promptShowSeconds * 1000);
 }
 
-	function removePrompt() {
+function removePrompt() {
+	var
+		overlay = document.querySelector("main.overlay"),
+	$;
+
 	CTM.debug && console.log("Removing prompt.");
-	document.querySelector("main.overlay").remove();
+
+	if(overlay) {
+		overlay.remove();
+	}
 }
 
 return {

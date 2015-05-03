@@ -11,6 +11,6 @@ CTM.Grid.showYear(yearBlockList);
 [].forEach.call(imageList, CTM.Grid.randomiseImage);
 
 CTM.Prompt.schedule();
-//CTM.SMS.checkLoop();
+CTM.SMS.checkLoop();
 
 });
