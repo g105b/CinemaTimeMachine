@@ -29,7 +29,10 @@ public function getList() {
 
 	foreach($messageList as $i => $message) {
 		$timestamp = $message->receivedAt()->getTimestamp();
-		$messageArray[$timestamp] = $message->summary();
+		$messageArray []= [
+			"timestamp" => $timestamp,
+			"message" => $message->summary(),
+		];
 	}
 
 	return $messageArray;

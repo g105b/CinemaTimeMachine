@@ -24,9 +24,9 @@ public function go() {
 		$smsTime = $this->session->get("SmsTime");
 	}
 
-	foreach($messageArray as $timestamp => $message) {
-		if($timestamp <= $smsTime) {
-			unset($messageArray[$timestamp]);
+	foreach($messageArray as $i => $messageObject) {
+		if($messageObject["timestamp"] <= $smsTime) {
+			unset($messageArray[$i]);
 		}
 	}
 

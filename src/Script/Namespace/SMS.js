@@ -18,13 +18,20 @@ function checkSmsCallback() {
 
 	var
 		smsArray = JSON.parse(this.responseText),
-		timestamp,
 	$$;
 
-	for(timestamp in smsArray) {
-		showSms(smsArray[timestamp]);
-		markAsRead(timestamp);
+	if(smsArray.length === 0) {
+		return;
 	}
+
+	CTM.debug && console.log("New message timestamp: ", smsArray[0].timestamp);
+	smsArray[0].timestamp;
+	showSms(smsArray[0].message);
+	markAsRead(smsArray[0].timestamp);
+}
+
+function showSms(message) {
+	CTM.debug && console.log("New message! ", message);
 }
 
 /**
@@ -33,6 +40,7 @@ function checkSmsCallback() {
  * @param timestamp
  */
 function markAsRead(timestamp) {
+	CTM.debug && console.log("Marking as read: ", timestamp);
 	x.get("/checksms?timestamp=" + timestamp);
 }
 
