@@ -30,8 +30,6 @@ function showImage(yearBlockList) {
 		i = 1,
 		$$;
 
-	console.log(yearBlock.className);
-
 	if(!yearBlock.className) {
 		yearBlock.classList.add("i1");
 	}
