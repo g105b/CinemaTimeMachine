@@ -18,7 +18,7 @@ public function go() {
     $messageArray = $esendex->getList();
 
 	// The minimum timestamp to return:
-    $smsTime = 0;
+    $smsTime = time() - 120;
 
     if($this->session->exists("SmsTime")) {
 		$smsTime = $this->session->get("SmsTime");
