@@ -16,7 +16,7 @@ public function go() {
 }
 
 private function outputFilmPoster($message) {
-	$imgUrl = "";
+	$imgUrl = $this->document->querySelector("img")->src;
 	$gotNoResult = false;
 	$wordArray = explode(" ", trim($message));
 	$currentPhrase = "";

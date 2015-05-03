@@ -46,6 +46,7 @@ function updatePageCallback() {
 	CTM.debug && console.log("Scheduling prompt removal...");
 	// Remove the prompt after promptShowSeconds delay.
 	setTimeout(removePrompt, promptShowSeconds * 1000);
+    setTimeout(schedule, promptShowSeconds * 1000);
 }
 
 function removePrompt() {
@@ -58,9 +59,6 @@ function removePrompt() {
 	if(overlay) {
 		overlay.remove();
 	}
-
-	// Schedule the next prompt.
-	schedule();
 }
 
 return {
