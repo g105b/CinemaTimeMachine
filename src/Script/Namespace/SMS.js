@@ -2,6 +2,7 @@ ns("CTM.SMS", (function() {
 
 var
 	inervalSeconds = 5,
+	responseShowSeconds = 6,
 $$;
 
 function checkLoop() {
@@ -31,7 +32,29 @@ function checkSmsCallback() {
 }
 
 function showSms(message) {
+	CTM.Prompt.unschedule();
+	CTM.Prompt.removePrompt();
+	x.updatePage("/response?message=" + escape(message), updatePageCallback);
 	CTM.debug && console.log("New message! ", message);
+}
+
+function updatePageCallback() {
+	setTimeout(removeResponse, responseShowSeconds * 1000);
+}
+
+function removeResponse() {
+	var
+		overlay = document.querySelector("main.response"),
+	$$;
+
+	CTM.debug && console.log("Removing SMS.");
+
+	if(overlay) {
+		overlay.remove();
+	}
+
+	// Schedule the next prompt.
+	CTM.Prompt.schedule();
 }
 
 /**
@@ -43,6 +66,8 @@ function markAsRead(timestamp) {
 	CTM.debug && console.log("Marking as read: ", timestamp);
 	x.get("/checksms?timestamp=" + timestamp);
 }
+
+window.testShowSms = showSms;
 
 return {
 	checkLoop: checkLoop,
