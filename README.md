@@ -55,4 +55,20 @@ Healthy-yet-nice food was provided in the Mezzanine bar. There were chicken thin
 
 Greg installed more things from 'the internet'. Packages and so forth. Helen told me (Pete) to do something useful so I started documenting our process which you are now reading here. Greg is currently (15:24) making a auto-updating loop which will instanltly display any SMS sent to our virtual mobile number on screen. This is surprisingly exciting to everyone in the team.
 
-Next we met with the Creative Guy from Broadway to see if they had any visual materials from the past which we could integrate into our project to provide context. He mentioned some old photos including one of Quentin Tarantino when he came to the Broadway for the unofficial UK premier of Pulp Fiction. 
+Next we met with the Mathew Trivett from Broadway to see if they had any visual materials from the past which we could integrate into our project to provide context. He mentioned some old photos including one of Quentin Tarantino when he came to the Broadway for the unofficial UK premier of Pulp Fiction. (But he wasn't totes sure where it was.)
+
+### 16:00 - 17:00: Back to Superteam HQ
+
+We decided to return to Derby so that we could work on computers with real-sized screens. We continued to brainstorm ideas and sketch out wireframes while on the shuddery bus.
+
+### 17:00 - 21:30: First visualisations
+
+We used this time to pull together images and start getting things working onscreen. We discussed ideas for possible features but tried to keep everything MVP for fear of 'shooting for the stars only to get stuck in the treetops'. If that's not a real expression I suggest that it become one.
+
+### 21:30 - 06:30: Recouperation
+
+We decided to allow ourselves the briefest of nine hour breaks to have a beer and a sleep. It's important to not go mad while hacking.
+
+### 06:30 - 09:30: Refinement of prototype and content generation
+
+Back at the Derby office we continued work by writing code, finding more required imagery and getting text content sorted. This thing was really starting to take shape now!
