@@ -4,6 +4,16 @@
 
 This is The Superteam's entry to [Hack24 2015](h24-web). We're making an interactive story of cinema to celebrate Broadway Cinema's 25 year anniversary.
 
+We decided to approach this project by developing a visual installation, intended to be displayed in public areas wihtin the cinema, while adding SMS interactivity via Esendex APIs for that extra bit of texty goodness. 
+
+In its default state the installation displays images from the last quarter century of cinema mixed in with scanned covers from Broadway programmes published since 1990. The images are shown in a lovely grid. Every 30 seconds a film fact is dsplayed as a prompt to encourage viewers to text the name of their favourite film and a short message. The submitted films titles are shown full screen along with the film's poster which is pulled from the Open Movie Database using their API.
+
+What makes this project awesome is that even without interactivity, it provides an interesting visual backdrop that can remind people of how great the last 25 years of film culture has been. But! When you allow people to share their favourite films with the room, well... then you have something truly magical.
+
+## This is pretty good, but what else would we do in t'future?
+
+For version 2 we'd like to add interesting facts about the films people share such as revenue generated, critics ratings and so on. Perhaps allow people to submit names of film stars too because, why not eh?
+
 ## Who made it?
 
 <a target="_blank" href="http://twitter.com/clarkcx"><img src="https://pbs.twimg.com/profile_images/581455432830550016/7AKXlqoE.jpg" width=128 /></a>
