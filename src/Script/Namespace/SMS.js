@@ -44,7 +44,7 @@ function updatePageCallback() {
 
 function removeResponse() {
 	var
-		overlay = document.querySelector("main.response"),
+		overlay = document.querySelector("main.overlay"),
 	$$;
 
 	CTM.debug && console.log("Removing SMS.");
