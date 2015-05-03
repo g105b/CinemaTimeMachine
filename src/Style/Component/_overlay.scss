@@ -29,6 +29,8 @@ main, main.overlay {
 	}
 	b {
 		display: block;
+		margin-top: .25em;
+		font-size: 130%;
 	}
 	p:last-of-type {
 		margin-bottom: 0;
@@ -40,4 +42,6 @@ main, main.overlay {
 
 #cta {
 	font-size: 3em;
+	background: rgba(#94c8dd, 0.9);
+	color: black;
 }
