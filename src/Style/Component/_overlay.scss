@@ -6,6 +6,7 @@ main, main.overlay {
 	height: 90%;
 	display: flex;
 	flex-wrap: wrap;
+	-webkit-animation: showOverlay 1s ease both;
 }
 
 #fact, #cta, #resp {
@@ -57,4 +58,10 @@ main, main.overlay {
 #sms {
 	display: inline-block;
 	width: 70%;
+}
+
+@-webkit-keyframes showOverlay {
+	from {
+		opacity: 0;
+	}
 }

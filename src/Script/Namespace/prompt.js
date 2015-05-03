@@ -1,9 +1,17 @@
 ns("CTM.Prompt", (function() {
 
 var
-	delaySeconds = 10,
-	promptShowSeconds = 5,
+	delaySeconds = 15,
+	promptShowSeconds = 10,
 	timeout,
+    promptUriArray = [
+        "prompt/001",
+        "prompt/002",
+        "prompt/003",
+        "prompt/004",
+        "prompt/005",
+        "prompt/006",
+    ],
 $$;
 
 function schedule() {
@@ -17,8 +25,20 @@ function unschedule() {
 
 function promptTimeout() {
 	CTM.debug && console.log("Prompt timeout.");
-	x.updatePage("/prompt/example1", updatePageCallback);
+
+    if(!localStorage["promptIndex"]) {
+        localStorage["promptIndex"] = 0;
+    }
+
+	x.updatePage(promptUriArray[localStorage["promptIndex"]], updatePageCallback);
 	timeout = null;
+
+    if(localStorage["promptIndex"] < promptUriArray.length - 1) {
+        localStorage["promptIndex"]++;
+    }
+    else {
+        localStorage["promptIndex"] = 0;
+    }
 }
 
 function updatePageCallback() {
