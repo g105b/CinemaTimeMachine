@@ -79,6 +79,19 @@ We used this time to pull together images and start getting things working onscr
 
 We decided to allow ourselves the briefest of nine hour breaks to have a beer and a sleep. It's important to not go mad while hacking.
 
-### 06:30 - 09:30: Refinement of prototype and content generation
+### 06:30 - 10:00: Refinement of prototype and content generation
 
 Back at the Derby office we continued work by writing code, finding more required imagery and getting text content sorted. This thing was really starting to take shape now!
+
+### 10:00 - 12:00: Back to Nottingham!
+
+Jumping in the Superteamobile we raced (at or slightly under the speed limit) back to the Broadway to finish things off. We tidied up the code and did other things and ate some pastries. Also we demonstrated our hack (or 'installation' as we were now calling it) to Hack24 staff who were, we thought, very nice about it. 
+
+### 12:00 - 14:00: Making the video
+
+With our installation (or 'winning entry' as we were now calling it) finished we had a couple of hours to present it in the best possible light through the medium of video. We thought about doing something clever with editing but were a bit tired so instead just talked at the camera for four minutes. Still, I think we got the point across quite well. 
+[Watch our video you lovely folk!](https://vimeo.com/126722502)
+
+### 14:00 - 17:00: Nervous waiting
+
+This is happening right now. 
