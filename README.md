@@ -49,7 +49,7 @@ Node and NPM can be installed without root permissions, and multiple versions ma
 
 ## Web log(s)
 
-### 12:00 - 13:00: Ideas generation
+### Saturday 12:00 - 13:00: Ideas generation
 
 Because we like to live life very much 'on the edge' we had not formed a clear plan for the day in advance of arrival. This being the case we took the first hour to brainstorm, mind map, and generally come up with something un-rubbish to work on. We thought of potential projects based around a few of the briefs before settling on a hack that would answer both the Esendex and Broadway briefs simultaneously.
 
@@ -75,7 +75,7 @@ We decided to return to Derby so that we could work on computers with real-sized
 
 We used this time to pull together images and start getting things working onscreen. We discussed ideas for possible features but tried to keep everything MVP for fear of 'shooting for the stars only to get stuck in the treetops'. If that's not a real expression I suggest that it become one.
 
-### 21:30 - 06:30: Recouperation
+### 21:30 - Sunday 06:30: Recouperation
 
 We decided to allow ourselves the briefest of nine hour breaks to have a beer and a sleep. It's important to not go mad while hacking.
 
