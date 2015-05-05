@@ -2,7 +2,7 @@
 
 ## What is this?
 
-This is The Superteam's entry to [Hack24 2015](h24-web). We're making an interactive story of cinema to celebrate Broadway Cinema's 25 year anniversary.
+This is The Superteam's entry to [Hack24 2015](http://hack24.co.uk). We're making an interactive story of cinema to celebrate Broadway Cinema's 25 year anniversary.
 
 We decided to approach this project by developing a visual installation, intended to be displayed in public areas wihtin the cinema, while adding SMS interactivity via Esendex APIs for that extra bit of texty goodness. 
 
