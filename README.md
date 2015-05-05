@@ -95,3 +95,17 @@ With our installation (or 'winning entry' as we were now calling it) finished we
 ### 14:00 - 17:00: Nervous waiting
 
 This is happening right now. 
+
+### 17:00 - 18:00: Announcement of winners
+
+All hackers reconverged in Screen 4 of the Broadway to find out who had won in each of the six challenges. First up was the Broadway challengs. Our challenge! Despite what I said just before we weren't really expecting to win so it was a great surprise when we saw our team name up on the screen. Unaccustomed as I am to public displays of emotion I let out a loud "Woooooo!" in what I approximated to be an enthusiastic manner. Like when the shuttle safely touches down in films and everyone does high-fives. We were inveited down to the stage to collect our prizes (a year's membership to Broadway and an Ototo music development kit each!) before our video was shown. Lovely stuff!
+
+The other categories were announced and happy winners big happy faces were prominent. The non-winners (because there are no losers here) were in similarly high spirits. I'll try to get a list of all the entrants and include it below with links to their projects.
+
+### 18:00 - Late: After party at Das Kino
+
+Everyone needed to chillax a little so we all shuffled off to Das Kino which is a trendy nightspot that, to my eyes, resembles a youth club from the 1980s complete with table tennis tables. Nothing wrong with that.
+
+### Conclusions
+
+I really wasn't sure what to expect from a 24 Hack event so I tried to go into it with an open mind. We intentionally kept our project as simple as we could and that seems to have been the right thing to do. Our only real goal for the weekend was to get 'something' finished which we'd be able to use as an example of working together. We did that, and the fact that we won a prize just made it all the more special. I truly hope that Hack24 will be back next year as it was a fantastically organised and well run event. Many people were involved in that but credit must undoubtably go to Emma and Andrew who were the main driving force. Good work chaps, good work!
