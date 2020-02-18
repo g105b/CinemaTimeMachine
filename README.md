@@ -16,9 +16,9 @@ For version 2 we'd like to add interesting facts about the films people share su
 
 ## Who made it?
 
-<a target="_blank" href="http://twitter.com/clarkcx"><img src="https://pbs.twimg.com/profile_images/581455432830550016/7AKXlqoE.jpg" width=128 /></a>
-<a target="_blank" href="http://twitter.com/littlehelli"><img src="https://pbs.twimg.com/profile_images/594251815409033217/l3weUs9d.jpg" width=128 /></a>
-<a target="_blank" href="http://twitter.com/g105b"><img src="https://pbs.twimg.com/profile_images/542405561887649792/phT0XVks.jpeg" width=128 /></a>
+<a target="_blank" href="https://twitter.com/clarkcx"><img src="https://pbs.twimg.com/profile_images/1219783807928348672/d2zJRMXl_400x400.jpg" width=128 /></a>
+<a target="_blank" href="https://twitter.com/littlehelli"><img src="https://pbs.twimg.com/profile_images/1183006836728979456/iLZUT3Y2_400x400.jpg" width=128 /></a>
+<a target="_blank" href="https://twitter.com/g105b"><img src="https://pbs.twimg.com/profile_images/1023613882693238784/e_mch0ze_400x400.jpg" width=128 /></a>
 
 ## The concept
 
